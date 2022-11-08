@@ -1,0 +1,20 @@
+/node_modules
+/public/hot
+/public/storage
+
+# Imagenes del sistema
+/public/imagenes_server
+/public/temp_files/
+# --
+/storage/*.key
+/vendor
+/public/js/app.js
+/public/css/app.css
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode

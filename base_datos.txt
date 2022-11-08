@@ -1,0 +1,21 @@
+CREATE DATABASE `renaceris_master` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+
+CREATE DATABASE `renaceris_master_1` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+
+CREATE DATABASE `renaceris_master_2` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+
+CREATE DATABASE `renaceris_master_3` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+
+CREATE DATABASE `renaceris_master_4` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+
+
+CREATE DATABASE `renaceris_records` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+
+CREATE DATABASE `renaceris_records_1` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+
+CREATE DATABASE `renaceris_records_2` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+
+CREATE DATABASE `renaceris_records_3` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+
+CREATE DATABASE `renaceris_records_4` /*!40100 DEFAULT CHARACTER SET utf8mb4 */;
+

@@ -1,0 +1,171 @@
+/*//////////////////////////////////////////////////////////////////
+[ RESTYLE TAG ]*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+/*---------------------------------------------*/
+a {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0px;
+    transition: all 0.4s;
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
+
+a:focus {
+    outline: none !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+span {
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+i {
+    width: 50%;
+    text-align: right;
+}
+
+/*---------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0px;
+}
+
+ul,
+li {
+    margin: 0px;
+    list-style-type: none;
+}
+
+/*---------------------------------------------*/
+button {
+    outline: none !important;
+    border: none;
+    background: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ login ]*/
+
+body {
+    width: 100%;
+    height: 100%;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-image: url("/images/login/background_1.png");
+    background-position: center center;
+    align-items: center;
+    background-size: cover;
+
+    /* vh es para tomar la altura y el ancho de la pantalla */
+}
+
+.logo {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 20%;
+}
+
+.logo_2 {
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    top: -25%;
+}
+
+#login-content {
+    position: relative;
+    background: #e2edf3;
+    height: 310px;
+    margin-top: 20%;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(165, 165, 165, 0.267);
+}
+
+#button-content {
+    position: relative;
+    background: #e2edf3;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(165, 165, 165, 0.267);
+}
+
+#button-content:hover {
+    background: #c5e4f5;
+
+    box-shadow: 0px 10px 20px 0px rgba(165, 165, 165, 0.267);
+}
+#button-content:hover a {
+    color: white;
+}
+
+.input-group-content {
+    width: 80%;
+    left: 10%;
+    position: absolute;
+    bottom: 10%;
+}
+.input-content {
+    height: 50px;
+}
+
+.icon-content {
+    color: white;
+    background: #956292;
+}
+
+@media (max-width: 900px) {
+    .logo {
+        position: fixed;
+        top: 80%;
+        width: 30%;
+        left: 35%;
+    }
+    #login-content {
+        margin-top: 50%;
+        width: 80%;
+        height: 250px;
+    }
+
+    #button-content {
+        width: 50%;
+        margin-left: 25%;
+    }
+}
